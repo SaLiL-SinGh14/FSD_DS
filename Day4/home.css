@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.grid-item{
+    border: 3px solid rgb(215, 218, 32);
+}
+.navbar,
+.image,
+.footer,
+.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
